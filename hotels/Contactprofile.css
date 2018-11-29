@@ -1,0 +1,89 @@
+*{
+				margin: 0px auto;
+
+}
+h3{
+				margin-top: px;
+				margin-left: 105px;
+				color: white;
+				font-weight: lighter;
+}
+h6{
+				margin-left: 100px;
+				margin-top: 5px;
+				word-spacing: 0.7em;
+				color: white;
+
+}
+button{
+				width: 160px;
+				height: 50px;
+				border-radius: 15%;
+				margin-left: 100px;
+				margin-top: 30px;
+				background: white;
+				color: pink;
+				font-weight: bolder;
+				border-color: white;
+
+
+}
+p{
+				padding-top: 40px;
+				padding-right: 20px;
+				padding-left: 20px;
+				color: grey;
+				font-family: sans-serif;
+				font-size: 90%;
+}
+.first-phase{
+				border: 2px solid white;
+				height: 300px;
+				width: 340px;
+				background-image: linear-gradient(pink,coral);
+				border-top-right-radius:  5%;
+				border-top-left-radius: 5%;
+			    box-shadow: 5px 10px 5px silver;
+			
+}
+.second-phase{
+				border: 1px solid white;
+				height: 150px;
+				width: 340px;
+   				background: white;
+			    box-shadow: 5px 10px 5px silver;
+
+}
+.nav-bar{
+				border: auto;
+				width: 25px;
+				margin-left: 20px;
+				margin-top: 50px;
+}
+
+#img2{
+				border: auto;
+				border-radius: 50%;
+				margin-top: 0px;
+				margin-bottom: 20px;
+				margin-left: 115px;
+}
+#img3{
+				margin-left: 110px;
+				margin-top: 5px;
+}
+#div1{
+				border: 1.5px solid white;
+				width: 25px;
+				border-radius: 15%;
+}
+#div2{
+				border: 1.5px solid white;
+				width: 18px;
+				margin-top: 4px;
+}
+#div3{
+				border: 1.5px solid white;
+				width: 25px;
+				margin-top: 4px;
+}

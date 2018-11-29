@@ -1,0 +1,144 @@
+@media only screen and (max-width: 767px){
+
+		 body{
+		 			border: 1px solid  green;
+		 			overflow: auto;
+		 }
+		 section h4{
+		 				font-size: 20px;
+		 				margin-top: 60px;
+		 }
+		 section span{
+		 			
+		 }
+		 section em{
+		 					margin-top: 0px;
+		 					font-size: 17px;
+		 }
+		 article{
+		 			height: 650px;
+
+		 }
+		 article del{
+		 			padding-left: 40px;
+		 			padding-top: 508px;
+		 			font-size: 17px;
+		 }
+		 article ins{
+		 			 margin-top: 475px;
+		 			 margin-left: 40px;
+		 			 font-size: 19px;
+
+		 }
+		 article #Dig{
+		 			  margin-top: 337px;
+		 			  padding-left: 40px;
+
+		 }
+		 article im{
+		 			  padding-top: 279px;
+		 			  padding-left: 40px;
+		 			  float: left;
+		 			  font-size: 16px;
+		 }
+		 article big{
+		 			  padding-top: 193px;
+		 			  margin-left: 40px;
+		 			  font-size: 18px;
+		 }
+		 article #webDev{
+		 			   padding-top: 305px;
+		 			   padding-left: 40px;
+		 }
+		 article em{
+		 					padding-right: 478px;
+		 					margin-top: 0px;
+		 					font-size: 16px;
+		 }
+		article #brand{
+							margin-top: 30px;
+		}
+		article i{
+							margin-top: 30px;
+							font-size: 16px;
+		}
+		article b{
+							padding-top: 25px;
+							font-size: 19px;
+		}
+		article h4{
+							font-size: 19px;
+							margin-top: 110px;
+		}
+		article span{
+							 margin-top: 1S0px;
+		}
+ 		 header{
+		 			height: 490px;
+		 }
+		 header #p1{
+		 						font-size: 18px;
+		 						margin-top: 190px;
+		 }
+		 header h2{
+		 						font-size: 30px;
+		 						margin-top: 50px;
+		 }
+		header #img2{
+					height: 160px;
+					width: 230px;
+		 			margin-left: 40px;
+		 			margin-top: 290px;
+		 }
+		 header #explore #img3{
+		 			display: none;
+		 }
+		 header small{
+		 				display: none;
+		 }
+		  header nav ul{
+
+		  				border: auto;
+		  				height: 30px;
+		  				width: 380px;
+		  				position: absolute;
+		  				font-size: 70%;
+		  				margin-left: 180px;
+		  				margin-right: 3px;
+		  }
+		 header nav ul li{
+		 				
+		 }
+		nav{
+					 width: 100%;
+					 
+		}
+		section em{
+			         float: left;
+					 margin-left: 40px;
+		}
+		footer{
+					border: auto;
+					width: 100%;
+					float: left;
+		}
+		footer #footer-img{
+					  float: none;
+		}
+		footer .footer-img1{
+					   margin-left: 40px;
+		}
+		footer .footer-img2{
+						float: left;
+		}
+		p:last-child{
+						font-size: 70%;
+						padding-left: 40px;
+						padding-top: 5px;
+		}
+
+
+
+
+
+

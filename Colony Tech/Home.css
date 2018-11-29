@@ -1,0 +1,266 @@
+*{
+		margin: 0px auto;
+	    padding: 0px;
+}
+body{
+		width: 1024px;
+	   font-family: "Montserrat", sans-serif;
+	}
+header nav ul {
+		list-style-type: none;
+		margin-right: 45px;
+		margin-top: 13px;
+
+
+}
+header nav ul li{
+		display: inline;
+		float: right;
+}
+#nav{
+	    text-decoration: none;
+	    color: white;
+	    display: block;
+	    padding: 6px 8px;
+	}
+li #nav:hover{
+
+		 background: #0000cc;
+		 color: lightgrey;
+		 cursor: pointer;
+}
+li #nav:focus{
+		background: #0000cc;
+		color: white;
+		border-radius: 15px;
+}
+#img1{
+		border: auto;
+		margin-top: 15px;
+		margin-left: 40px;
+		position: absolute;
+}
+nav{
+		 border: 1px solid skyblue transparent;
+		 width: 1024PX;
+		 height: 65px;
+		 position: fixed;
+		background-image: linear-gradient(to top right, #223dff, #00aeff);
+
+}
+header{
+		border: auto;
+		overflow: hidden;
+		height: 350px;
+		width: 100%;
+
+		background-image: linear-gradient(to top right, #223dff, #00aeff);
+}
+
+
+
+header h2{
+		padding-top: 100px;
+		padding-left: 40px;
+	    font-size: 40px;
+	    position: absolute;
+	    color: white;
+}
+header #img2{
+		margin-top: 75px;
+		margin-left: 680px;
+	    position: absolute;
+}	
+header #img2:hover{
+        	 -webkit-transform: rotateY(130deg); /* Safari */
+    transform: rotateY(60deg);
+    transition-duration: 5s;
+}
+header #p1{
+		margin-top: 150px;
+		margin-left: 40px;
+		font-size: 80%;
+		color: white;
+}
+header #img3{
+		margin-top: 45px;
+		padding-left: 30px;
+}
+small{
+		padding-left: 10px;
+		position: absolute;
+		padding-top: 52px;
+}
+header #explore{
+		border: auto;
+		height: 90px;
+		width: 170px;
+		margin-left: 10px;
+}
+
+section{
+		border:  auto;
+		height: 170px;
+		width: 100%;
+}
+section h4{
+		padding-left: 40px;
+		padding-top: 20px;
+}
+section span {
+		border: 1px solid;
+		width: 30px;
+		height: 1px;
+		display: block;
+		float: left;
+		margin: 13px;
+		margin-left: 40px;
+		background: black;
+		position: absolute;
+		
+}
+section em{
+		font-style: normal;
+		float: right;
+		padding-top: 30px;
+		padding-right: 546px;
+		font-size: 80%;
+		
+}
+
+article{
+		border: auto;
+		height: 290px;
+		width: 100%;
+		color: grey;
+}
+article h4{
+		padding-left: 38px;
+		padding-top: 20px;
+}
+article span{
+	    border: auto;
+		width: 30px;
+		height: 3px;
+		display: block;
+		float: left;
+		margin: 13px;
+		margin-left: 40px;
+	 	background: black;
+		position: absolute;
+}
+article em{
+	    font-style: normal;
+		float: right;
+		padding-top: 30px;
+		padding-right: 574px;
+		font-size: 80%;
+		
+}
+article #brand{
+		padding-top: 110px;
+		padding-left: 38px;
+		position: absolute;
+}
+article b{
+		position: absolute;
+		margin-left: 38px;
+		margin-top: 147px;
+	    font-size: 84%;
+}
+article i{
+	    font-style: normal;
+		float: right;
+		padding-top: 172px;
+		padding-left: 38px;
+		font-size: 80%;
+		position: absolute;
+}
+article #webDev{
+		padding-top: 110px;
+		padding-left: 340px;
+		position: absolute;
+}
+article big{
+		font-size: 84%;
+		font-weight: bolder;
+	    position: absolute;
+		margin-left: 340px;
+		margin-top: 146px;
+}
+article im{
+	    font-style: normal;
+		float: right;
+		padding-top: 87px;
+		padding-right: 393px;
+		font-size: 80%;
+}
+article #Dig{
+	    padding-top: 110px;
+		padding-left: 752px;
+		position: absolute;
+}
+article ins{
+	    position: absolute;
+		margin-left: 752px;
+		margin-top: 147px;
+	    font-size: 84%;
+		text-decoration: none;
+	    font-weight: bolder;
+}
+article del{
+		text-decoration: none;
+		float: right;
+		padding-top: 172px;
+		padding-left: 752px;
+		font-size: 80%;
+		position: absolute;
+}
+.before-footer{
+		border: auto;
+		height: 170px;
+		width: 100%;
+		background:  #00aeff;
+}
+.before-footer h3{
+		padding-top: 30px;
+		padding-left: 40px;
+}
+.before-footer ol{
+		list-style-type: none;
+		padding-top: 10px;
+		padding-left: 40px;
+}
+.before-footer ol li{
+	
+	    display: inline;
+}
+.before-footer ol li:last-child{
+		display: block;
+}
+.before-footer button{
+		margin-top: 15px;
+		margin-left: 40px;
+		padding: 7px 7px 7px 7px;
+		color: white;
+		background: #0000cc;
+		font-family: sans-serif;
+		border: none;
+		border-radius: 5px;
+}
+.before-footer button:hover{
+		 background: white;
+		 color: #223dff;
+}
+footer{
+		border: auto;
+		height: 30px;
+		width: 100%;
+} 
+footer #footer-img{
+		float: right;
+		padding-top: 8px;
+		padding-right: 20px;
+}
+
+

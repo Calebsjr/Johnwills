@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>On and off bulb</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+			<div class="imgs">
+				<button onclick="on()">Click to turn on</button>
+				<img id="img1" src="imgs/Off.JPG"/>
+				<img id="img2"  src="imgs/On.JPG"/>
+				<button onclick="off()">Click to turn off</button>
+			</div>
+			<!--my carousels-->
+			<button  onclick="imgprev()">prev</button>
+			<img id="img3" src="imgs/A.png" width="30%" height="30%"/>
+		
+			<button id="btn" onclick="imgnext()">next</button>
+			<script>
+				function on() {
+					document.getElementById('img1').style.visibility = "hidden";
+				}
+				function off() {
+					document.getElementById('img1').style.visibility = "visible";
+				}
+			
+						var myImage = document.getElementById('img3');
+						var imageArray = ["imgs/A.png", "imgs/B.png", "imgs/C.png"];
+						var imageIndex = 1;
+								imgnext();
+							function imgnext(){
+								myImage.setAttribute("src", imageArray[imageIndex]);
+								imageIndex++;
+								if (imageIndex > 2) {
+									imageIndex = 0;
+
+								}
+							}
+							function imgprev() {
+								myImage.setAttribute("src", imageArray[imageIndex]);
+								imageIndex--;
+								if (imageIndex < 0) {
+									imageIndex = 2;
+								}
+							}
+
+						
+							
+
+			</script>
+			 <a id="prev-btn"> &#10094; &#10094; </a>
+  			  <a id="next-btn" style="font-size: 50px; float: left;">  &#10095; &#10094;</a>
+</body>
+</html>

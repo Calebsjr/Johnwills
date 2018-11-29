@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NavBar example</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Navbar.css">
+</head>
+<body>
+		<header>
+		<h1>w3School.com</h1>
+		<h4>THE WORLD'S LARGEST WEB DEVELOPER SITE</h4>
+		</header>
+			<nav>
+			<ul>
+				
+				<li id="top-nav"><a id="top-navlink" href="#"><img src="Navbar.jpg" width="20px" height="20px"></a></li>
+				<li id="top-nav"><a id="top-navlink" href="Simpleprofile.html"> HTML</a></li>
+				<li id="top-nav"><a id="top-navlink" href="Simpleprofile.html">CSS</a></li>
+				<li id="top-nav"><a id="top-navlink" href="Simpleprofile.html"> JAVASCRIPT</a></li>
+				<li id="top-nav"><a id="top-navlink" href="Simpleprofile.html"> SQL</a></li>
+				<li id="top-nav"><a id="top-navlink" href="Simpleprofile.html"> PHP</a></li>
+				<li id="top-nav"><a id="top-navlink" href="Simpleprofile.html"> BOOSTRAP</a></li>
+				<li id="top-nav"><a id="top-navlink" href="Simpleprofile.html"> HOW TO</a></li>
+				<li id="top-nav"><a id="top-navlink" href="Simpleprofile.html"> JQUERY</a></li>
+				<li id="top-nav" ><a id="top-navlink" ><button onclick="clickMore()">MORE</button> </a> </li>
+				<li id="top-nav" style="float: right;" id="top-nav"><a id="top-navlink" href="Simpleprofile.html"> EXAMPLES</a></li>
+				<li id="top-nav" style="float: right;" id="top-nav"><a id="top-navlink" href="Simpleprofile.html"> REFERENCES</a></li>
+			</ul>
+
+
+			<ol id="ol">
+				<li id="side-bar">Html Tutorial</li>
+				<li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li>
+				<li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li>
+				<li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li>
+				<li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li>
+				<li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li>
+				<li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li>
+				<li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li><li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li><li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li><li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li><li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li><li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li><li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li><li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li><li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li><li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li>
+				<li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li><li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li><li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li><li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li><li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li><li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li><li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li><li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li><li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li><li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li><li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li><li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li><li id="side-bar"><a id="side-navlink" href="#">Html Home</a></li>
+       </nav>
+       <section>
+       		<div id="dropdown">
+       			<ol id="ol3">
+       				<li>Learn HTML and CSS</li>
+       				<li>Learn Javascript</li>
+       				<li>Learn Javascript</li>
+       				<li>Learn Javascript</li>
+       				<li>Learn Javascript</li>
+       				<li>Learn Javascript</li>
+       				<li>Learn Javascript</li>
+       			</ol>
+
+       				<ol id="ol4">
+       				<li>Learn Javascript</li>
+       				<li>Learn JQuerY</li>
+       				<li>Learn SQL</li>
+       				<li>Learn PHP</li>
+       				<li>JS REFERENCES</li>
+       				<li>Learn Javascript</li>
+       				<li>Learn Javascript</li>
+       			</ol>
+       		</div>
+       </section>
+       		<script>
+       			function clickMore(){
+			// body...
+				var x = document.getElementById('dropdown');
+				if (x.style.display === "none") {
+					x.style.display = "block";
+				}else{
+					x.style.display = "none";
+				}
+		}
+			clickMore();
+
+       		</script>
+</body>
+</html>
+ 

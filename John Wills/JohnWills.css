@@ -1,0 +1,319 @@
+@font-face{
+			
+           font-family: Clarendon;
+           src: url("ClarendonLtBTLight.ttf");
+           font-weight: normal;
+
+}
+*{
+			margin: 0px auto;
+}
+header{
+			border: auto;
+			height: 70px;
+			width: 100%;
+			position: fixed;
+			z-index: 950;
+			background: white;
+			margin-top: -3px;
+}
+header h2{
+			margin-left: 60px;
+			position: absolute;
+			margin-top: 12px;
+			font-size: 30px;
+			color: #603b26;
+		    font-family: "Montserrat", sans-serif;
+			
+}
+header h2 span{
+			font-weight: lighter;
+}
+header ul{
+			list-style-type: none;
+			float: right;
+			margin-right: 0px;
+			margin-top: 50px;
+			z-index: 10;
+
+}
+header ul #li1{
+			display: inline;
+			padding-left: 0px;
+			padding-top: 40px;
+			font-size: 18px;
+		    font-family: "Montserrat", sans-serif;
+			
+} 
+header ul #nav-link{
+			text-decoration: none;
+			color: #603b26;
+			padding: 8px 10px;
+			display: block;
+			border: 1px solid;
+			padding-left: 60px;
+			padding-right: 70px;
+			border: none;
+			border-bottom: 1px solid lightgrey;
+
+}
+
+header ul #nav-link:first-child{
+			border-top: 1px solid lightgrey;
+}
+#nav-link:hover{
+			background: orange;
+			transition-duration: 1s;
+			color: white;
+			border-radius: 5px;
+}
+#nav-link:focus{
+				background: orange;
+				color: white;
+				border-radius: 10px;
+}
+header #sidebar{
+				height: 500px;
+				width: 203px;
+				background: silver;
+				margin-right: 0px;
+		    	z-index: 10;
+		    	border-radius: 5px;
+		    	top: 20px;
+		    	position: relative;
+		    	
+
+}
+
+header #sidebar #cancel{
+				font-size: 35px;
+				position: absolute;
+				margin-left: 160px;
+				margin-top: 15px;
+				font-weight: bolder;
+				cursor: pointer;
+}
+header .toggle-btn{
+				cursor: pointer;
+				margin-left: 80%;
+			 	position: fixed;
+			 	top: 12px;
+}
+
+header .toggle-btn #span{
+				height: 5px;
+				width: 30px;
+				background: brown;
+				display: block;
+				margin-top: 5px;
+				position: relative;
+}
+section{
+				border: auto;
+				background-size: cover;
+				width: 100%;
+				height: 650px;
+				position: relative;
+}
+section #img1{
+				position: absolute;
+
+
+}
+section #img2{
+			     position: absolute;
+			     animation-name: Calebs;
+				 animation-duration: 10s;
+				 animation-iteration-count: infinite;
+
+}
+
+ #prev-btn{
+					position: absolute;
+					margin-top: 300px;
+					left: 0;
+					font-weight: bolder;
+					font-size: 35px;
+					color: orange;
+					cursor: pointer;
+					
+					
+
+}
+
+#next-btn{
+					position: absolute;
+					right: 0;
+					margin-top: 300px;
+					font-weight: bolder;
+					font-size: 35px;
+					color: orange;
+					cursor: pointer;
+		
+}
+#next-btn:hover, #prev-btn:hover {
+						background: black;
+						color:white;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-timing-function: 1.5s linear;
+}
+
+
+
+/*section #img3{
+					position: absolute;
+					animation-name: JohnWills;
+					animation-duration: 6s;
+					animation-iteration-count: infinite;
+
+					
+
+}*/
+section h1{
+					 font-size: 9vw;
+				     position: absolute;
+				    padding-top:160px;
+				    text-align: center;
+					padding-left: 300px;
+				    color: white;
+				    font-family: Clarendon;
+}
+section button{
+						padding: 8px 10px 8px 10px;
+						margin-left: 40%; 
+						margin-top: 35%;
+						font-size: 30px;
+						background: orange;
+						position: absolute;
+						border-radius: 15px;
+						z-index: 1;
+						color: white;
+						border: none;
+					    font-family: "Montserrat", sans-serif;
+}
+section button:hover{
+						background: #603b26;
+
+}
+#ol{
+						list-style-type: none;
+						color: white;
+						margin-top: 510px;
+						margin-left: 490px;
+						z-index: 100;
+						position: absolute;
+}
+section #ol #li2{
+						display: inline;
+						font-size: 10vw;
+						padding-left: 15px;
+						
+}
+main{
+					border: auto;
+					height: 270px;
+					width: 100%;
+}
+					
+main #img4{
+
+					border: auto;
+					height: 150px;
+	     	        width: 240px;
+					position: absolute;		
+					margin-left: 80px;
+	                margin-top: 30px;
+					padding-top: 20px;
+					padding-bottom: 30px;
+					background: rgba(180, 180, 180,0.4);
+				
+}
+main #img5{
+					border: auto;
+					height: 150px;
+	     	        width: 240px;
+					position: absolute;		
+				    margin-left: 500px;
+					margin-top: 30px;
+					padding-top: 20px;
+					padding-bottom: 30px;
+						background: rgba(180, 180, 180,0.4);
+}
+main #img6{
+					border: auto;
+					height: 150px;
+	     	        width: 240px;
+					position: absolute;		
+				    margin-left: 900px;
+					margin-top: 30px;
+					padding-top: 20px;
+					padding-bottom: 30px;
+			    	background: rgba(180, 180, 180,0.4);
+}
+main #img7{
+					border: auto;
+					height: 150px;
+	     	        width: 240px;
+					position: absolute;		
+				    margin-left: 900px;
+					margin-top: 30px;
+					padding-top: 20px;
+					padding-bottom: 30px;
+			    	background: rgba(180, 180, 180,0.4);
+			    	display: none;
+}
+main #prev{
+					position: absolute;
+					padding-top: 90px;
+					font-weight: bolder;
+					font-size: 35px;
+					color: orange;
+					cursor: pointer;
+}
+
+#next{
+					position: absolute;
+					padding-left: 1270px;
+					padding-top: 90px;
+					font-weight: bolder;
+					font-size: 35px;
+					color: orange;
+	
+	
+}
+
+/*@keyframes JohnWills{
+					0%{
+								z-index: -1;
+					}
+					25%{
+								z-index: -2;
+					}
+					50%{
+								z-index: 1;
+					}
+					100%{
+								z-index: 5;
+					}
+
+}*/
+@keyframes fade{
+					0%{
+								opacity: 0.4;
+					}
+					25%{
+								opacity: 0.6;
+					}
+					50%{
+								opacity: 0.8
+					}
+					100%{
+								opacity: 1;
+					}
+
+}

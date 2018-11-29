@@ -1,0 +1,96 @@
+*{
+	margin: 0px auto;
+}
+body{
+			  
+}
+
+p{
+				padding-top: 25px;
+				padding-right: 10px;
+				padding-left: 45px;
+				color: grey;
+				font-family: sans-serif;
+				font-size: 95%
+				word-spacing: 0.5em;
+}
+img{
+				padding-top: 28px;
+				padding-left: 40px;
+}
+			
+.h4{
+				border: auto;
+				padding-right: 50px;
+				padding-left: 32px;
+				height: 2100%;
+			    width: 100%;
+			    word-spacing: 78%;
+			    font-family: sans-serif;
+				font-weight: bolder;
+			
+				
+
+				
+}
+#img1{
+				margin-left: 70px;
+}
+#profile-content{
+				border: auto;
+				background: white;
+			   	height: 220px;
+				width: 390px;
+				margin-left: 484px;
+				margin-top: 223px;
+				display: inline-block;
+				border-bottom-left-radius: 5%;
+				border-bottom-right-radius: 5%;
+			    box-shadow: 5px 10px 5px silver;
+
+}
+#h4-1{
+		
+			    margin-top: 60px;		
+			    margin-left: 133px;
+			    font-family: sans-serif;
+}
+
+
+#profile-photo{
+				border:auto;
+				border-radius: 5%;
+				height: 220px;
+				width: 382px;
+				background: linear-gradient(
+					rgba(128,0,128,0.3),
+					rgba(128,0,128,0.3)
+					),
+					 url("Lighthouse.jpg");
+	
+			    position: fixed;
+				background-size: 100%;
+				left: 0;
+				right: 0;
+				z-index: -1;
+				opacity: 0.3;
+				margin-top: 10px;
+                box-shadow: 5px 10px 5px silver;
+				
+
+}
+
+#photo{
+				border: auto;
+				height: 90px;
+				width:  90px;
+				background-image: url("Calebs.jpg");
+				position: fixed;
+				background-repeat: no-repeat;
+				background-size: 100%;
+				opacity: ;
+				margin-top: 180px;
+				margin-left: 630px;
+				border-radius: 50%;
+				z-index: 2;
+}

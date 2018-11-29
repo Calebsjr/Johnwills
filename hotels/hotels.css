@@ -1,0 +1,57 @@
+*{
+		margin: 0px auto;
+}													
+input[type=password]{
+		margin-top: 20px;
+}
+button{
+		border: none;
+		width: 270px;
+		margin-top: 20px;
+		background-color: Dodgerblue;
+        height: 30px;
+		margin-left: 20px;
+}
+ol{
+	    list-style-type: none;
+}
+li{
+		display: inline;
+}
+ul li{
+		display: inline-block;
+}
+.logbody{
+		border: auto;
+		max-width: 300px; 
+		display: block;
+}	
+#inputbox{
+		width: 250px;
+		height: 25px;
+		margin-left: 20px;
+		margin-top: 20px;
+		padding-left: 10px;
+		border-radius: 5%;
+	}
+#sign{
+		color: red;
+}
+#heading{
+		margin-left: 25px;
+}
+#p2{
+		text-align: center;
+		color: red;
+}
+#h1{
+		font-size: 50px;
+	    font-weight: bold;
+		color: Dodgerblue;
+}
+@media sreen and (max-width: 800px){
+
+}
+										
+												
+												

@@ -1,0 +1,138 @@
+*{
+		margin: 0px auto;
+}
+body{
+		 background:;
+		 max-width: 1024px;
+}
+header{
+		 border: auto;
+		 height: 50px;
+		 width: 100%;
+		 background-image: linear-gradient(to top right, #223dff, #00aeff);
+		 box-shadow: 2px 3px 13px silver;
+		 
+}
+header img{
+		 position: absolute;
+		 margin-top: 12px;
+		 margin-left: 38px;
+}
+header ul{
+		list-style-type: none;
+		border: auto;
+		margin-left: 720px;
+		padding-top: 12px;
+	  color: white;
+} 
+header ul li{
+		display: inline;
+		padding-left: 10px;
+}
+section{
+		border: auto;
+		height: 190px;
+		background: white;
+	  box-shadow: 3px 3px 13px silver;
+}
+section h3{
+	 padding-top: 28px;
+	 padding-left: 38px;
+}
+section span{
+	 border: auto;
+	 height: 2px;
+	 width: 20px;
+	 background: black;
+	 display: block;
+	 margin-left: 38px;
+	 margin-top: 10px; 
+	 position: absolute;
+}
+section em{
+	    font-style: normal;
+		float: right;
+		padding-top: 28px;
+		padding-right: 623px;
+		font-size: 80%;
+}
+article{
+		border: auto;
+		height: 250px;
+		width: 100%;
+		background: white;
+	  box-shadow: 2px 3px 13px silver;
+}
+article #img1{
+		width: 210px;
+		padding-left:270px;
+		padding-top: 32px;
+		
+}
+article #img2{
+		padding-left: 70px;
+}
+main{
+		border: auto;
+		height: 150px;
+		width: 100%;
+	  box-shadow: 2px 3px 13px silver;
+}
+main h3{
+	   padding-top: 28px;
+	   padding-left: 38px;
+}
+main span{
+	   border: auto;
+	   height: 2px;
+   	 width: 20px;
+	   background: black;
+	   display: block;
+	   margin-left: 38px;
+	   margin-top: 10px; 
+	   position: absolute;
+}
+.before-footer{
+		border: auto;
+		height: 170px;
+		width: 100%;
+		background:  #00aeff;
+	  box-shadow: 2px 3px 13px silver;
+}
+.before-footer h3{
+		padding-top: 30px;
+		padding-left: 40px;
+}
+.before-footer ol{
+		list-style-type: none;
+		padding-top: 10px;
+		padding-left: 40px;
+}
+.before-footer ol li{
+	
+	    display: inline;
+}
+.before-footer ol li:last-child{
+		display: block;
+}
+.before-footer button{
+		margin-top: 15px;
+		margin-left: 40px;
+		padding: 4px 4px 4px 4px;
+		color: white;
+		background: #0000cc;
+		font-family: sans-serif;
+		border: none;
+	  border-radius: 5px;
+}
+footer{
+		border: auto;
+		height: 30px;
+		width: 100%;
+	  box-shadow: 2px 3px 13px silver;
+} 
+footer #footer-img{
+		float: right;
+		padding-top: 8px;
+		padding-right: 20px
+}

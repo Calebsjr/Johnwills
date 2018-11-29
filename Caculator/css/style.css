@@ -1,0 +1,87 @@
+*{
+		margin: 0px auto;
+		padding: 0;
+}
+.Container-fluid{
+		height: 450px;
+		border: 1px solid white;
+		width: 23%;
+		margin-top: 30px;
+		z-index: -30;
+		background: linear-gradient(to top right, BlueViolet,Skyblue);
+	
+}
+b{
+		color : white;
+		position: absolute;
+		margin-top: -20px;
+		margin-left: 64px;
+		font-size: 18px;
+		font-family: sans-serif;
+		font-weight: lighter;
+}
+.Container-fluid .Container{
+		height: 90%;
+		border: 1px solid transparent;
+		width: 90%;
+		margin-top: 7%;
+		z-index: 100;
+}
+.radius{
+		border-radius: 25px;
+}
+.Container-fluid .Container #Calculator-display{
+		border: 1px solid;
+		height: 130px;
+		width: 280px;
+		position: absolute;
+		background: grey;
+		font-size: 28px;
+		border: none;
+		margin-top: -130px;
+}
+
+.Container-fluid .Container .btn1{
+		margin-top: 46%;
+}
+.Container-fluid .Container .btn1 .btn{
+		width: 70px;
+		height: 55px;
+		float: left;
+		background: ;
+		border: none;
+		font-size: 20px;
+		border-right: 1px solid silver;
+		border-bottom: 1px solid silver;
+} 
+.Container-fluid .Container .btn1 #btn-cancel{
+		width: 140px;
+		height: 55px;
+		border: none;
+		font-size: 16px;
+		border-bottom: 1px solid silver;
+
+}
+.Container-fluid .Container .btn1 #btn-equal{
+		width: 70px;
+		height: 110px;
+		border: none;
+		font-size: 16px;
+		float: right;
+		background:  orange;
+		color:white;
+		margin-right: 2px;
+}
+.Container-fluid .Container .btn1 #btn-zero{
+		width: 140px;
+		height: 55px;
+		border: none;
+		font-size: 16px;
+		float: left;
+		border-right: 1px solid silver;
+		background: white;
+}
+		/* Colors  of some buttons in the calclator*/
+.color{
+		background: white;
+}

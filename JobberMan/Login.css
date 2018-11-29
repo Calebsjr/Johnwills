@@ -1,0 +1,191 @@
+@font-face{
+		   font-family: Montserrat;
+           src: url("Montserrat-Regular.otf");
+           font-weight: normal;
+}
+*{
+		margin: 0px auto;
+}
+body{
+			font-family: "Montserrat";
+}
+ul{
+			list-style-type: none;
+}
+header{
+			border: auto;
+			width: 100%;
+			height: 103px;
+	
+		
+}
+header .first-nav{
+		border: 1px solid;
+		height: 23px;
+		width: 100%;
+		background: black;
+}
+header .first-nav #ul1{
+		list-style-type: none;
+		margin-left: 650px;
+}
+main #job1 #ul3{
+		list-style-type: none;
+}
+header .first-nav #ul1  #li1{
+		border: 1px solid;
+		display: inline;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 13px;
+		border: none;
+		color: white;
+		border-right: 1px solid;	
+
+}
+header .second-nav{
+		border: auto;
+		height:65px;
+		width: 100%;
+		background: white;
+}
+header .second-nav #ul2{
+		list-style-type: none;
+		margin-left: 655px;
+		position: absolute;
+		margin-top: 13px;
+}
+header .second-nav #ul2 #li2{
+		border: 1px solid;
+		display: inline;
+		padding-left: 20px;
+		padding-right: 20px;
+		border: none;
+		border-right: 2px solid;
+		font-size: 13px;
+		border-color: rgba(180,180,180,0.4);
+
+}
+
+header .second-nav #ul2 #li2:last-child{
+		border: none;
+}
+header .second-nav h1{
+		margin-top: 3px;
+		margin-left: 70px;
+		position: absolute;
+}
+section{
+		border: 1px solid;
+		width: 430px;
+		height: 480px;
+		border-radius: 5px;
+		border: none;
+    box-shadow: 1px 1px 1px 1px silver;
+}
+section h2{
+		margin-top: 20px;
+		text-align: center;
+		font-weight: lighter;
+		color: grey;
+		opacity: 0.6;
+		font-size: 28px;
+		padding-top: 26px;
+}
+section label{
+		position: absolute;
+		margin-top: 20px;
+		padding-left: 29px;
+		color: grey;
+		font-size: 12px;
+
+}
+section #Password{
+		position: absolute;
+		margin-top: 75px; 
+		color: grey;
+	  font-size: 12px;
+}
+section #input1{
+		width: 370px;
+		height: 30px;
+		margin-top: 26px;
+		margin-left: 27px;
+		border-radius: 5px;
+		border: none;
+		border-top: 1px solid silver;
+		border-bottom: 1px solid silver;
+		border-right: 1px solid silver;
+		border-left: 1px solid silver;
+		position: absolute;
+}
+section #input2{
+		width: 370px;
+		height: 30px;
+		margin-top: 78px;
+		margin-left: 27px;
+		border-radius: 5px;
+		border: none;
+		border-top: 1px solid silver;
+		border-bottom: 1px solid silver;
+		border-right: 1px solid silver;
+		border-left: 1px solid silver;
+		position: absolute;	
+}
+section #check{
+		margin-top: 150px;
+		margin-left: 28px;
+}
+section p{
+		text-align: center;
+		margin-top: 15px;
+		color: #943DC5;
+		font-size: 13px;
+}
+section b{
+		font-weight: lighter;
+		color: grey;
+		font-size: 12px;
+}
+section #button1{
+		width: 370px;
+		height: 30px;
+	 	margin-left: 27px;
+		background:  #FF6100;
+		border: none;
+		margin-top: 15px;
+		color: white;
+		font-size: 14px;
+		border-radius: 5px;
+
+}
+section #button2{
+		width: 370px;
+		height: 30px;
+	 	margin-left: 27px;
+		background:  #943DC5;
+		border: none;
+		margin-top: 29px;
+		color: white;
+		font-size: 12px;
+		border-radius: 5px;
+		padding
+		
+}
+section span{
+		font-weight: bolder;
+		font-size: 19px;
+		margin-right: 3px;
+}
+section ul{
+		margin-top: 30px;
+		margin-left: 90px;
+}
+section ul li{
+		display: inline;
+		font-size: 12px;
+}
+section ul li a{
+		text-decoration: none;
+		color: #943DC5
+}

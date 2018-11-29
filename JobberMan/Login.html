@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="Login.css">
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat'>
+</head>
+<body>
+		<header>
+			<div class="first-nav">
+				<ul id="ul1">
+					<li id="li1">Professional CV service  </li>
+					<li id="li1">LOGIN  </li>
+					<li id="li1">JOB SEEKER SIGNUP</li>
+					<li id="li1">CONTACT </li>
+				</ul>
+			</div>
+			<div class="second-nav">
+				<ul id="ul2">
+					<li id="li2"> JOB SEEKERS</li>
+					<li id="li2"> EMPLOYERS</li>
+					<li id="li2"> CARREER CENTERS</li>
+					<li id="li2">COURSES</li>
+				</ul>
+				<h1>Orburn</h1>
+			</div>
+		</header>
+			<section>
+			<form id="myForm" onsubmit="return validateForm()">
+				<h2>Login</h2>
+				<label>Email/Username *</label><br>
+				<input id="input1" type="text" name="" required="required">
+				<label id="Password">Password *</label><br>
+				<input id="input2" type="Password" name="paswrd" required="required">
+				<input id="check" type="checkbox" name=""><b> Keep me Logged In</b>
+				<p>Forgot Password?</p>
+				<button id="button1">SIGN IN</button>
+				<button id="button2"><span>f</span> LOGIN WITH FACEBOOK</button>
+			</form>
+			<ul>
+				<li>Not Registered?</li>
+				<li><a href="#">Sign up</a></li>
+			</ul>
+			</section>
+
+			<script>
+				function validateForm() {
+    var x = document.forms["myForm"]["paswrd"].value;
+    if (x > 6) {
+        alert("Minimum of 6 characters");
+        return false;
+    }
+}
+			</script>
+</body>
+</html>
